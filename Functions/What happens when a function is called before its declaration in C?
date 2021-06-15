@@ -27,3 +27,17 @@ int main(void)
     printf("%c\n", fun());
     return 0;
 }
+
+
+#include <stdio.h>
+ 
+int fun()
+{
+   return 10;
+}
+ 
+int main(void)
+{
+    printf("%d\n", fun());
+    return 0;
+}
