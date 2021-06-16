@@ -16,3 +16,25 @@ int main(void)
     printf("NOT over till now\n");
     return 0;
 }
+
+
+example:
+
+// C program to illustrate the working 
+// of _Noreturn type function.
+#include <stdio.h>
+#include <stdlib.h>
+  
+// Nothing to return
+_Noreturn void show()
+{
+    printf("BYE BYE");
+}
+int main(void)
+{
+    printf("Ready to begin...\n");
+    show();
+  
+    printf("NOT over till now\n");
+    return 0;
+}
