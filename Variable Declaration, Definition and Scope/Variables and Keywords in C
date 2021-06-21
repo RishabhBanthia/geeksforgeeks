@@ -16,3 +16,16 @@ int main()
  
     return 0;
 }
+
+
+example:
+
+#include <stdio.h>
+void function() {
+  int x = 10; // local variable
+}
+ 
+int main()
+{
+  function();
+}
