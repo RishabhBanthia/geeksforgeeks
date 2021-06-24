@@ -22,3 +22,24 @@
    *bufp0 = *bufp1;
    *bufp1 = temp;
 }
+
+
+
+
+/* foo3.c */
+#include <stdio.h>
+void f(void);
+int x = 15213;
+int main()
+{
+  f();
+  printf("x = %d\n", x);
+  return 0;
+}
+   
+/* bar3.c */
+int x;
+void f()
+{
+  x = 15212;
+}
