@@ -6,3 +6,16 @@ int main()
    printf("%d", x);
    return 0; 
 }
+
+
+
+
+// Program 2
+int x;
+int x = 5;
+  
+int main()
+{
+   printf("%d", x);
+   return 0; 
+}
