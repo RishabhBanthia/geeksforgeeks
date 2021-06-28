@@ -38,3 +38,27 @@ int main()
     printf("%d\n", animals);
     return 0;
 }
+
+
+
+
+// C code to illustrate External Linkage
+#include <stdio.h>
+  
+void foo()
+{
+    int a;
+    extern int b; // line 1
+}
+  
+void bar()
+{
+    int c;
+    c = b; // error
+}
+  
+int main()
+{
+    foo();
+    bar();
+}
