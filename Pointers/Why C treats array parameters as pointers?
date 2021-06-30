@@ -1,0 +1,13 @@
+void foo(int arr_param[]) 
+{
+  
+  /* Silly but valid. Just changes the local pointer */
+  arr_param = NULL; 
+}
+  
+void foo(int *arr_param) 
+{
+  
+  /* ditto */
+  arr_param = NULL; 
+}
