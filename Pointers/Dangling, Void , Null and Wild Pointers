@@ -68,3 +68,20 @@ int main()
     // to static variable.
     printf("%d",*p);
 }
+
+
+
+
+Variable goes out of scope
+void main()
+{
+   int *ptr;
+   .....
+   .....
+   {
+       int ch;
+       ptr = &ch;
+   } 
+   .....   
+   // Here ptr is dangling pointer
+}
