@@ -34,3 +34,13 @@ int * ptr = NULL;
 printf("%d",*ptr);
 return 0;
 }
+
+
+
+
+#include<stdio.h>
+int main()
+{
+printf("%lu",sizeof(void));
+return 0;
+}
