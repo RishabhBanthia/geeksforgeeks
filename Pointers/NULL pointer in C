@@ -13,3 +13,13 @@ printf("This is always printed coz ii and jj are same.");
 }
 return 0;
 }
+
+
+
+
+#include<stdio.h>
+int main()
+{
+printf("%d",NULL);
+return 0;
+}
