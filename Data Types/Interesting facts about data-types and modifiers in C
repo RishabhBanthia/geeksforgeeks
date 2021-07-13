@@ -9,3 +9,16 @@ int main()
 	printf("The size of b is %d", sizeof(b));
 	return (0);
 }
+
+
+
+
+#include <stdio.h>
+int main()
+{
+	int x;
+	char y;
+	x = -1;
+	y = -2;
+	printf("x is %d and y is %d", x, y);
+}
