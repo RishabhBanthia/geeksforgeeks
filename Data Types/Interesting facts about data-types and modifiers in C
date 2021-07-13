@@ -33,3 +33,13 @@ int main()
 	short float b;
 	return (0);
 }
+
+
+
+
+#include <stdio.h>
+int main()
+{
+	long double a;
+	return (0);
+}
