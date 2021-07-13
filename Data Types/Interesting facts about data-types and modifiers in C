@@ -22,3 +22,14 @@ int main()
 	y = -2;
 	printf("x is %d and y is %d", x, y);
 }
+
+
+
+
+#include <stdio.h>
+int main()
+{
+	signed float a;
+	short float b;
+	return (0);
+}
