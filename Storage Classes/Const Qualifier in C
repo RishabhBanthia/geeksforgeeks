@@ -115,3 +115,24 @@ int main(void)
 // http://www.dansaks.com/articles/1999-02%20const%20T%20vs%20T%20const.pdf
 
 // More interesting stuff on C/C++ @ http://www.dansaks.com/articles.shtml
+
+
+
+
+#include <stdio.h>
+
+int main(void)
+{
+int i = 10;
+int j = 20;
+/* constant pointer to integer */
+int *const ptr = &i;	
+
+printf("ptr: %d\n", *ptr);
+
+*ptr = 100; /* valid */
+printf("ptr: %d\n", *ptr);
+
+ptr = &j;	 /* error */
+return 0;
+}
