@@ -27,3 +27,18 @@ int main()
 {
 struct Point p1; // The variable p1 is declared like a normal variable
 }
+
+
+
+
+struct Point
+{
+int x, y;
+};
+
+int main()
+{
+// A valid initialization. member x gets value 0 and y
+// gets value 1. The order of declaration is followed.
+struct Point p1 = {0, 1};
+}
