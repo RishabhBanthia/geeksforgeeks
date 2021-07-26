@@ -71,3 +71,18 @@ int main()
 	printf("%d %c", p2->x, p2->y);
 	return 0;
 }
+
+
+
+
+struct NODE {
+	bool is_leaf;
+	union {
+		struct
+		{
+			struct NODE* left;
+			struct NODE* right;
+		} internal;
+		double data;
+	} info;
+};
