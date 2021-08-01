@@ -109,3 +109,33 @@ int main()
 before 'static'
 	static int x;
 	^*/
+
+
+
+
+// C program to demonstrate that Constructor is not allowed
+#include <stdio.h>
+
+struct Student {
+	int roll;
+	Student(int x)
+	{
+		roll = x;
+	}
+};
+
+// Driver Program
+int main()
+{
+	struct Student s(2);
+	printf("%d", s.x);
+	return 0;
+}
+/* Output : Compiler Error
+[Error] expected specifier-qualifier-list
+	before 'Student'
+[Error] expected declaration specifiers or
+'...' before numeric constant
+[Error] 's' undeclared (first use
+5555555555in this function)
+In function 'main': */
