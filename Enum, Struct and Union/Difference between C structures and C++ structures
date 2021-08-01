@@ -139,3 +139,22 @@ int main()
 [Error] 's' undeclared (first use
 5555555555in this function)
 In function 'main': */
+
+
+
+
+
+// C program to illustrate empty structure
+#include <stdio.h>
+
+// empty structure
+struct Record {
+};
+
+// Driver program
+int main()
+{
+	struct Record s;
+	printf("%lu\n", sizeof(s));
+	return 0;
+}
