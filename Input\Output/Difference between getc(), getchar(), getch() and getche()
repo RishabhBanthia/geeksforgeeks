@@ -28,3 +28,14 @@ int main()
 printf("%c", getch());
 return 0;
 }
+
+
+
+#include <stdio.h>
+#include <conio.h>
+// Example for getche() in C
+int main()
+{
+printf("%c", getche());
+return 0;
+}
