@@ -10,3 +10,19 @@ int main()
 
 	return 0;
 }
+
+
+
+
+// A simple C program to demonstrate
+// working of putchar_unlocked()
+#include <stdio.h>
+int main()
+{
+	// Syntax is same as getchar()
+	char c = getchar_unlocked();
+
+	putchar_unlocked(c);
+
+	return 0;
+}
