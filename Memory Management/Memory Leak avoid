@@ -9,3 +9,19 @@ int *ptr = (int *) malloc(sizeof(int));
 
 return; /* Return without freeing ptr*/
 }
+
+
+
+
+/* Function without memory leak */
+#include <stdlib.h>;
+
+void f()
+{
+int *ptr = (int *) malloc(sizeof(int));
+
+/* Do some work */
+
+free(ptr);
+return;
+}
