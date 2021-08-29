@@ -38,3 +38,18 @@ int main()
 	printf("%lu", sizeof(a + d));
 	return 0;
 }
+
+
+
+
+
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a = 0;
+	double d = 10.21;
+	cout << sizeof(a + d));
+	return 0;
+}
