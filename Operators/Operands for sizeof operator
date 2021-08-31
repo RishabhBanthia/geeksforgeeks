@@ -45,3 +45,26 @@ int main()
 	getchar();
 	return 0;
 }
+
+
+
+
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int i = 5;
+	int int_size = sizeof(i++);
+
+	// Displaying the size of the operand
+	cout << "\n size of i = " << int_size;
+
+	// Displaying the value of the operand
+	cout << "\n Value of i = " << i;
+
+	return 0;
+}
+
+// This code is contributed by SHUBHAMSINGH10
