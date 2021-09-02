@@ -19,3 +19,16 @@ int a = 3, b = -8, c = 2;
 cout << a % b / c;
 return 0;
 }
+
+
+
+
+
+#include <stdio.h>
+int main()
+{
+// a positive and b negative.
+int a = 3, b = -8;
+printf("%d", a % b);
+return 0;
+}
