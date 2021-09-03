@@ -73,3 +73,17 @@ int a = -3, b = -8;
 printf("%d", a % b);
 return 0;
 }
+
+
+
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+// a and b both negative
+int a = -3, b = -8;
+cout << a % b;
+return 0;
+}
