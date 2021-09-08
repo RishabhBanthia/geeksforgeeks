@@ -51,3 +51,25 @@ int main()
 	printf("Sum = %d", add(3, 4));
 	return 0;
 }
+
+
+
+
+
+
+#include <iostream>
+using namespace std;
+
+int add(int x, int y)
+{
+	return printf("%*c%*c", x, '\r', y, '\r');
+}
+
+// Driver code
+int main()
+{
+	printf("Sum = %d", add(3, 4));
+	return 0;
+}
+
+// This code is contributed by shubhamsingh10
