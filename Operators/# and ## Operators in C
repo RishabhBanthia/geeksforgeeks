@@ -6,3 +6,22 @@ int main(void)
 	printf(mkstr(geeksforgeeks));
 	return 0;
 }
+
+
+
+
+
+
+
+// CPP program to illustrate (#) operator
+#include <iostream>
+using namespace std;
+
+#define a 8.3297
+
+int main()
+{
+	cout << "Value of a is " << a << endl;
+
+	return 0;
+}
