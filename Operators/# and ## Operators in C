@@ -25,3 +25,26 @@ int main()
 
 	return 0;
 }
+
+
+
+
+
+
+// CPP program to illustrate (#) operator
+#include <iostream>
+using namespace std;
+
+#define MAX(i, j) (((i) > (j)) ? i : j)
+
+int main()
+{
+	int a, b;
+
+	a = 250;
+	b = 25;
+
+	cout << "The maximum is " << MAX(a, b) << endl;
+
+	return 0;
+}
