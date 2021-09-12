@@ -25,3 +25,16 @@ while (num <= N && printf("%d ", num) && num++)
 {
 }
 }
+
+
+
+
+
+
+#include<stdio.h>
+
+int main(int num, char *argv[])
+{
+printf("num = %d\n", num);
+printf("argv[0] = %s ", argv[0]);
+}
