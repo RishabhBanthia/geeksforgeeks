@@ -137,3 +137,28 @@ int main(void)
 	printf("%d", sumDigits(687));
 	return 0;
 }
+
+
+
+
+
+
+// C++ program to compute
+// sum of digits in number.
+#include <iostream>
+using namespace std;
+class gfg {
+public:
+	int sumDigits(int no)
+	{
+		return no == 0 ? 0 : no % 10 + sumDigits(no / 10);
+	}
+};
+
+// Driver code
+int main(void)
+{
+	gfg g;
+	cout << g.sumDigits(687);
+	return 0;
+}
