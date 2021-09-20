@@ -39,3 +39,21 @@ int main()
 }
 
 // This code is contributed by kirti
+
+
+
+
+
+
+
+
+// C program to find log(n) using Inbuilt
+// function of <math.h> library
+#include <math.h>
+#include <stdio.h>
+int main()
+{
+	unsigned int n = 32;
+	printf("%d", (int)log2(n));
+	return 0;
+}
