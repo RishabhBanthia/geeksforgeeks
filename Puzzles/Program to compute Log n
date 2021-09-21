@@ -96,3 +96,34 @@ int main()
 	printf("%u", Logn(n, r));
 	return 0;
 }
+
+
+
+
+
+
+
+// C++ program to find log(n) on arbitrary
+// base using Recursion
+#include <bits/stdc++.h>
+using namespace std;
+
+unsigned int Logn(unsigned int n,
+				unsigned int r)
+{
+	return (n > r - 1) ? 1 +
+	Logn(n / r, r) : 0;
+}
+
+// Driver code
+int main()
+{
+	unsigned int n = 256;
+	unsigned int r = 3;
+	
+	cout << Logn(n, r);
+	
+	return 0;
+}
+
+// This code is contributed by UJJWAL BHARDWAJ
