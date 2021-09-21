@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	char arr[2][5] = { "Even", "Odd" };
+	int no;
+	cout << "Enter a number: ";
+	cin >> no;
+	cout << arr[no % 2];
+	getchar();
+	return 0;
+}
