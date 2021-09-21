@@ -127,3 +127,29 @@ int main()
 }
 
 // This code is contributed by UJJWAL BHARDWAJ
+
+
+
+
+
+
+
+
+// C program to find log(n) on arbitrary base
+// using log() function of maths library
+#include <math.h>
+#include <stdio.h>
+
+unsigned int Logn(unsigned int n, unsigned int r)
+{
+	return log(n) / log(r);
+}
+
+int main()
+{
+	unsigned int n = 256;
+	unsigned int r = 3;
+	printf("%u", Logn(n, r));
+
+	return 0;
+}
