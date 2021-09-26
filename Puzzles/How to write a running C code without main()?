@@ -5,3 +5,17 @@ int fun(void)
 	printf("Geeksforgeeks");
 	return 0;
 }
+
+
+
+
+
+
+
+#include<stdio.h>
+#define fun m##a##i##n
+int fun()
+{
+	printf("Geeksforgeeks");
+	return 0;
+}
