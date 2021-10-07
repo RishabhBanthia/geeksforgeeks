@@ -1,0 +1,11 @@
+// C program to illustrate macro function.
+#include<stdio.h>
+#define INC(P) ++P
+int main()
+{
+	char *p = "Geeks";
+	int x = 10;
+	printf("%s ", INC(p));
+	printf("%d", INC(x));
+	return 0;
+}
