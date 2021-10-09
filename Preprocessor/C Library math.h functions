@@ -147,3 +147,23 @@ printf("Remainder of %f / %f is %lf\n", a, b, fmod(a, b));
 	
 return(0);
 }
+
+
+
+
+
+
+
+// C code to illustrate
+// the use of sqrt function
+#include <stdio.h>
+#include <math.h>
+
+int main ()
+{
+
+printf("Square root of %lf is %lf\n", 225.0, sqrt(225.0) );
+printf("Square root of %lf is %lf\n", 300.0, sqrt(300.0) );
+	
+return(0);
+}
