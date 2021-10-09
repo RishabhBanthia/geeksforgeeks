@@ -167,3 +167,24 @@ printf("Square root of %lf is %lf\n", 300.0, sqrt(300.0) );
 	
 return(0);
 }
+
+
+
+
+
+
+
+
+// C code to illustrate
+// the use of pow function
+#include <stdio.h>
+#include <math.h>
+
+int main ()
+{
+printf("Value 8.0 ^ 3 = %lf\n", pow(8.0, 3));
+
+printf("Value 3.05 ^ 1.98 = %lf", pow(3.05, 1.98));
+	
+return(0);
+}
