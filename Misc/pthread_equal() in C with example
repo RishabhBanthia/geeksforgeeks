@@ -34,3 +34,59 @@ int main()
 	// wait for thread
 	pthread_join(thread_one, NULL);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+// C program to demonstrate working of pthread_equal()
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <pthread.h>
+
+// global declared pthread_t variable
+pthread_t tmp_thread;
+
+void* func_one(void* ptr)
+{
+	tmp_thread = pthread_self(); // assign the id of thread one in
+	// temporary thread which is global declared
+}
+
+void* func_two(void* ptr)
+{
+	pthread_t thread_two = pthread_self();
+
+	// compare two thread
+	if (pthread_equal(tmp_thread, thread_two)) {
+		printf("equal\n");
+	} else {
+		printf("not equal\n");
+	}
+}
+
+int main()
+{
+	pthread_t thread_one, thread_two;
+
+	// creating thread one
+	pthread_create(&thread_one, NULL, func_one, NULL);
+
+	// creating thread two
+	pthread_create(&thread_two, NULL, func_two, NULL);
+
+	// wait for thread one
+	pthread_join(thread_one, NULL);
+
+	// wait for thread two
+	pthread_join(thread_two, NULL);
+}
