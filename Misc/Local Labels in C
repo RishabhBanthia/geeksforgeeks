@@ -1,0 +1,17 @@
+#define funcMacro(params …)
+do {												 \
+		if (cond == true)							 \
+				goto x;								 \
+		<some code >								 \
+														\
+		x:											 \
+				<some code>							 \
+} while(0);											 \
+
+Void foo()
+{
+	<some code>
+	funcMacro(params …);
+	<some code >
+	funcMacro(params…);
+}
