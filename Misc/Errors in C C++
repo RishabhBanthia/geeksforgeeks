@@ -31,3 +31,25 @@ void main()
 }
 
 // This code is contributed by shivanisinghss2110
+
+
+
+
+
+
+
+
+
+
+// C program to illustrate
+// syntax error
+#include<stdio.h>
+int main(void)
+{
+	// while() cannot contain "." as an argument.
+	while(.)
+	{
+		printf("hello");
+	}
+	return 0;
+}
