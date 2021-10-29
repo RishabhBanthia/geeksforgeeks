@@ -8,3 +8,26 @@ void main()
 	
 	printf("%d", (x, y)) // semicolon missed
 }
+
+
+
+
+
+
+
+
+// C++ program to illustrate
+// syntax error
+
+#include <iostream>
+using namespace std;
+
+void main()
+{
+	int x = 10;
+	int y = 15;
+	
+	cout << " "<< (x, y) // semicolon missed
+}
+
+// This code is contributed by shivanisinghss2110
