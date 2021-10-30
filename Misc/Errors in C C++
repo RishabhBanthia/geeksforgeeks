@@ -128,3 +128,22 @@ cout << "result = "<< div;
 }
 
 // This code is contributed by shivanisinghss2110
+
+
+
+
+
+
+
+
+
+
+// C program to illustrate
+// linker error
+#include<stdio.h>
+
+void Main() // Here Main() should be main()
+{
+	int a = 10;
+	printf("%d", a);
+}
