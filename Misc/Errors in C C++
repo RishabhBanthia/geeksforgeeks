@@ -193,3 +193,28 @@ int main()
 	getchar();
 	return 0;
 }
+
+
+
+
+
+
+
+
+// C++ program to illustrate
+// logical error
+int main()
+{
+	int i = 0;
+
+	// logical error : a semicolon after loop
+	for(i = 0; i < 3; i++);
+	{
+	cout << "loop ";
+		continue;
+	}
+	return 0;
+}
+
+
+// This code is contributed by shivanisinghss2110.
