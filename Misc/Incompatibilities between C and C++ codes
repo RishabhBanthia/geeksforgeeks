@@ -1,0 +1,14 @@
+// C code that uses argument types after
+// the list of arguments.
+#include<stdio.h>
+void fun(a, b)int a;int b;	 // Invalid in C++
+{
+	printf("%d %d", a, b);
+}
+
+// Driver code
+int main()
+{
+	fun(8, 9);
+	return 0;
+}
