@@ -54,3 +54,22 @@ int main()
 	printf("%s", array);
 	return 0;
 }
+
+
+
+
+
+
+
+
+
+// In C, empty brackets mean any number
+// of arguments can be passed
+#include<stdio.h>
+
+void fun() { }
+int main(void)
+{
+	fun(10, "GfG", "GQ");
+	return 0;
+}
