@@ -35,3 +35,22 @@ int main()
 	f(7);
 	return 0;
 }
+
+
+
+
+
+
+
+
+// C code to demonstrate that extra character
+// check is not done in C.
+#include<stdio.h>
+int main()
+{
+	// Error in C++
+	char array[5] = "Geeks";	
+
+	printf("%s", array);
+	return 0;
+}
