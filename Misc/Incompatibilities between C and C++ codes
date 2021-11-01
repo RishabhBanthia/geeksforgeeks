@@ -12,3 +12,26 @@ int main()
 	fun(8, 9);
 	return 0;
 }
+
+
+
+
+
+
+// C code to demonstrate implicit conversion
+// of void* to int*
+#include<stdio.h>
+#include<malloc.h>
+void f(int n)
+{
+	// Implicit conversion of void* to int*
+	// Not allowed in C++.
+	int* p = malloc(n* sizeof(int));
+}
+
+// Driver code
+int main()
+{
+	f(7);
+	return 0;
+}
