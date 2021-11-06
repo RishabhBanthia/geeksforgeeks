@@ -15,3 +15,26 @@ int main(void)
 	printf("x = %d, b = %d\n", x, y);
 	return 0;
 }
+
+
+
+
+
+
+
+
+// C program to illustrate unhygenic macros
+// with Macro definition substituted in source code.
+int main(void)
+{
+	int x = 4, y = 8;
+	
+	//macro called first time
+	do { int x = 0; ++x; } while(0);
+	
+	//macro called second time
+	do { int x = 0; ++y; } while(0);
+	
+	printf("x = %d, b = %d\n", x, y);
+	return 0;
+}
