@@ -1,0 +1,17 @@
+// C program to illustrate a situation known as
+// accidental capture of identifiers - an
+// undesirable result caused by unhygienic macros
+#define INCI(i) do { int x = 0; ++i; } while(0)
+int main(void)
+{
+	int x = 4, y = 8;
+	
+	// macro called first time
+	INCI(x);
+	
+	// macro called second time
+	INCI(y);
+	
+	printf("x = %d, b = %d\n", x, y);
+	return 0;
+}
