@@ -1,0 +1,16 @@
+//C program t illustrate scanf statement
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+	char a[10];
+	printf("Please enter your name : \n");
+	
+	//scanf statement
+	scanf("%s", a);
+
+	printf("You entered: \n%s", a);
+
+return 0;
+}
