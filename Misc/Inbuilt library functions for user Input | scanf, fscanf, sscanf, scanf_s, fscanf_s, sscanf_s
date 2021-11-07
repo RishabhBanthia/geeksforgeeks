@@ -14,3 +14,30 @@ int main()
 
 return 0;
 }
+
+
+
+
+
+
+
+
+
+
+// C program to illustrate sscanf statement
+#include <stdio.h>
+
+int main ()
+{
+	// declaring array s
+	char s [] = "3 red balls 2 blue balls";
+	char str [10],str2 [10];
+	int i;
+	
+	// %*s is used to skip a word
+	sscanf (s,"%d %*s %*s %*s %s %s", &i, str, str2);
+	
+	printf ("%d %s %s \n", i, str, str2);
+	
+	return 0;
+}
