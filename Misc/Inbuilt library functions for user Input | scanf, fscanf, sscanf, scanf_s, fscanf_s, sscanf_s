@@ -126,3 +126,28 @@ char ch[100000];
 printf("Enter characters: ");
 scanf_s("%s", ch, 99999);
 getchar();
+
+
+
+
+
+
+
+
+
+
+// C++ program
+// consumes the Enter key
+// (newline character) pressed after input
+
+#include "stdafx.h"
+
+int _tmain(int argc, _TCHAR* argv[])
+{
+	// example
+	char ch[100000];
+	printf("Enter characters: ");
+	scanf_s("%s", ch, 99999);
+	getchar();
+	return 0;
+}
