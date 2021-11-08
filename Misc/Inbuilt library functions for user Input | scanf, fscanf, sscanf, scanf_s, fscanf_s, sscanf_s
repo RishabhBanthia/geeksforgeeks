@@ -109,3 +109,20 @@ int main()
 
 	return 0;
 }
+
+
+
+
+
+
+
+
+// C program
+// consumes the Enter key
+// (newline character) pressed after input
+#include<stdio.h>
+
+char ch[100000];
+printf("Enter characters: ");
+scanf_s("%s", ch, 99999);
+getchar();
