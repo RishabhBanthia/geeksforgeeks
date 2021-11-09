@@ -194,3 +194,30 @@ int main()
 
 	return(0);
 }
+
+
+
+
+
+
+
+
+//C program to illustrate sscanf_s statement
+//This program will run on MS Visual studio
+#include <stdio.h>
+
+int main()
+{
+	char s[] = "3 red balls 2 blue balls";
+	char str[10], str2[10];
+	int i;
+
+	// %*s is used to skip a word
+	sscanf_s(s, "%d", &i, sizeof(i));
+	sscanf_s(s, "%*d %*s %*s %*s %s", str, sizeof(str));
+	sscanf_s(s, "%*d %*s %*s %*s %*s %s", str2, sizeof(str2));
+	
+	printf("%d %s %s \n", i, str, str2);
+
+	return 0;
+}
