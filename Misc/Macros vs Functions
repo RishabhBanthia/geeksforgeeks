@@ -1,0 +1,9 @@
+#include<iostream>
+#define NUMBER 10
+using namespace std;
+int main()
+{
+	cout<<NUMBER;
+	return 0;
+}
+//This code is contributed by Mayank Tyagi
