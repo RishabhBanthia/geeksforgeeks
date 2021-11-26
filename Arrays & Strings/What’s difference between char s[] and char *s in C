@@ -26,3 +26,18 @@ int main()
 	// s[0] = 'j';
 	return 0;
 }
+
+
+
+
+
+
+
+
+#include <stdio.h>
+int main()
+{
+	const char *s = "geeksquiz";
+	printf("%lu", sizeof(s));
+	return 0;
+}
