@@ -5,3 +5,18 @@ str = (char *)malloc(sizeof(char)*size);
 *(str+1) = 'f';
 *(str+2) = 'G';
 *(str+3) = '\0';
+
+
+
+
+
+
+
+int main()
+{
+char *str;
+str = "GfG";	 /* Stored in read only part of data segment */
+*(str+1) = 'n'; /* Problem: trying to modify read only memory */
+getchar();
+return 0;
+}
