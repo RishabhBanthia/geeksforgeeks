@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+// We can put two double quotes anywhere in a string
+char *str1 = "geeks""quiz";
+
+// We can put space line break between two double quotes
+char *str2 = "Qeeks"	 "Quiz";
+char *str3 = "Qeeks"	
+				"Quiz";
+
+puts(str1);
+puts(str2);
+puts(str3);
+
+puts("Geeks"	 // Breaking string in multiple lines
+		"forGeeks");
+return 0;
+}
