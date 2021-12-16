@@ -1,0 +1,13 @@
+/*Program 1 --> For loop*/
+for (<init-stmnt>; <boolean-expr>; <incr-stmnt>)
+{
+<body-statements>
+}
+
+/*Program 2 --> While loop*/
+<init-stmnt>;
+while (<boolean-expr>)
+{
+<body-statements>
+<incr-stmnt>
+}
