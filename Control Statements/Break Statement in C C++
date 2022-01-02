@@ -316,3 +316,32 @@ int main() {
 
 	return 0;
 }
+
+
+
+
+
+
+
+
+
+
+// CPP program to illustrate
+// using break statement
+// in Infinite loops
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	// loop initialization expression
+	int i = 0;
+
+	// infinite while loop
+	while (1) {
+		cout << i << " ";
+		i++;
+	}
+
+	return 0;
+}
