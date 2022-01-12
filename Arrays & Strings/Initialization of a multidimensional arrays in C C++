@@ -3,13 +3,12 @@ using namespace std;
 int main()
 {
 int a[][][2] = { {{1, 2}, {3, 4}},
-				{{5, 6}, {7, 8}} }; // error
+				{{5, 6}, {7, 8}} };
 cout << sizeof(a);
 getchar();
 return 0;
 }
 
-// This code is contributed by Mayank Tyagi
 
 
 
