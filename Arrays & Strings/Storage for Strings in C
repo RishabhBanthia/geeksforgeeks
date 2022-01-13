@@ -1,5 +1,5 @@
 char *str;
-int size = 4; /*one extra for ‘\0’*/
+int size = 4; 
 str = (char *)malloc(sizeof(char)*size);
 *(str+0) = 'G';
 *(str+1) = 'f';
