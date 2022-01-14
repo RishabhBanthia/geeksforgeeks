@@ -72,9 +72,8 @@ return 0;
 
 char *getString()
 {
-char *str = "GfG"; /* Stored in read only part of shared segment */
+char *str = "GfG";
 
-/* No problem: remains at address str after getString() returns*/
 return str;
 }	
 
