@@ -15,8 +15,8 @@ str = (char *)malloc(sizeof(char)*size);
 int main()
 {
 char *str;
-str = "GfG";	 /* Stored in read only part of data segment */
-*(str+1) = 'n'; /* Problem: trying to modify read only memory */
+str = "GfG";
+*(str+1) = 'n';
 getchar();
 return 0;
 }
