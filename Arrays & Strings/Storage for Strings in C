@@ -122,10 +122,7 @@ return 0;
 
 char *getString()
 {
-char str[] = "GfG"; /* Stored in stack segment */
-
-/* Problem: string may not be present after getString() returns */
-/* Problem can be solved if write static before char, i.e. static char str[] = "GfG";*/
+char str[] = "GfG";
 return str;
 }	
 int main()
