@@ -1,5 +1,3 @@
-// C program to illustrate
-// strcmp() function
 #include<stdio.h>
 #include<string.h>
 
@@ -8,8 +6,7 @@ int main()
 	
 	char leftStr[] = "g f g";
 	char rightStr[] = "g f g";
-	
-	// Using strcmp()
+
 	int res = strcmp(leftStr, rightStr);
 	
 	if (res==0)
