@@ -55,13 +55,10 @@ int main()
 
 
 
-// C program to illustrate
-// strcmp() function
 #include<stdio.h>
 #include<string.h>
 int main()
 {
-	// b has less ASCII value than g
 	char leftStr[] = "bfb";
 	char rightStr[] = "gfg";
 	
