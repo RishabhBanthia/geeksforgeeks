@@ -32,7 +32,6 @@ int main()
 
 
 
-// C program to illustrate strcoll()
 #include <stdio.h>
 #include <string.h>
 
