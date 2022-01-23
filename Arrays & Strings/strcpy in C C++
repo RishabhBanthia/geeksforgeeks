@@ -27,8 +27,6 @@ int main ()
 
 
 
-// C++ program to illustrate
-// strcpy() function ic C/C++
 #include <iostream>
 using namespace std;
 #include<string.h>
@@ -47,5 +45,3 @@ int main ()
 	cout << "str1: " << str1 << "\nstr2: " << str2 <<"\nstr3: "<< str3 << "\nstr4: "<< str4;
 	return 0;
 }
-
-// this code is contributed by shivanisinghss2110
