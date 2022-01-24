@@ -16,7 +16,6 @@ return(0);
 
 
 
-// C program to illustrate strspn() function
 #include <stdio.h>
 #include <string.h>
 
