@@ -54,14 +54,20 @@ int main()
 	t = strpbrk(s1, s3);
 
 	if (r != 0)
+	{
 		printf("Congrats u have won");
+	}
 	else
+	{
 		printf("Better luck next time");
-
+	}
 	if (t != 0)
+	{
 		printf("\nCongrats u have won");
+	}
 	else
+	{
 		printf("Better luck next time");
-
+	}
 	return (0);
 }
