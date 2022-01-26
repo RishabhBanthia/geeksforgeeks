@@ -89,13 +89,17 @@ int main()
 
 	ret = strcoll(str1, str2);
 
-	if (ret > 0) {
+	if (ret > 0) 
+	{
 		printf("str1 is greater than str2");
-	} else if (ret < 0) {
+	} 
+	else if (ret < 0) 
+	{
 		printf("str1 is lesser than str2");
-	} else {
+	} 
+	else 
+	{
 		printf("str1 is equal to str2");
 	}
-
 	return (0);
 }
