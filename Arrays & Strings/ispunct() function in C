@@ -8,11 +8,12 @@ int main()
 	while (str[i]) 
 	{
 		if (ispunct(str[i]))
+		{
 			count++;
+		}
 		i++;
 	}
-	printf("Sentence contains %d punctuation"
-		" characters.\n", count);
+	printf("Sentence contains %d punctuation" " characters.\n", count);
 	return 0;
 }
 
