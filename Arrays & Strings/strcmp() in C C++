@@ -41,12 +41,14 @@ int main()
 	int res = strcmp(leftStr, rightStr);
 	
 	if (res==0)
+	{
 		printf("Strings are equal");
+	}
 	else
+	{
 		printf("Strings are unequal");
-		
+	}
 	printf("\nValue of result: %d" , res);
-	
 	return 0;
 }
 
