@@ -32,10 +32,10 @@ int main()
 
 int main()
 {
-char str[] = "GfG";
-*(str+1) = 'n';
-getchar();
-return 0;
+    char str[] = "GfG";
+    *(str+1) = 'n';
+    getchar();
+    return 0;
 }
 
 
