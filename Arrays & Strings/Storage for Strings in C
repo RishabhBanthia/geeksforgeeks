@@ -14,11 +14,11 @@ str = (char *)malloc(sizeof(char)*size);
 
 int main()
 {
-char *str;
-str = "GfG";
-*(str+1) = 'n';
-getchar();
-return 0;
+   char *str;
+   str = "GfG";
+   *(str+1) = 'n';
+   getchar();
+   return 0;
 }
 
 
