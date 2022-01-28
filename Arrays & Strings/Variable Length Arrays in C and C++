@@ -4,10 +4,10 @@
 
 struct student
 {
-int stud_id;
-int name_len;
-int struct_size;
-char stud_name[0];
+   int stud_id;
+   int name_len;
+   int struct_size;
+   char stud_name[0];
 };
 
 struct student *createStudent(struct student *s, int id, char a[])
