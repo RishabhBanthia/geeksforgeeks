@@ -122,12 +122,12 @@ int main()
 
 char *getString()
 {
-char str[] = "GfG";
-return str;
+    char str[] = "GfG";
+    return str;
 }	
 int main()
 {
-printf("%s", getString());
-getchar();
-return 0;
+    printf("%s", getString());
+    getchar();
+    return 0;
 }
