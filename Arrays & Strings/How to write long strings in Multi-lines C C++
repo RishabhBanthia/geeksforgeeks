@@ -27,14 +27,14 @@ int main()
 #include<stdio.h>
 int main()
 {
-char *str = "These are reserved words in C language are int, float, "
+    char *str = "These are reserved words in C language are int, float, "
 			"if, else, for, while etc. An Identifier is a sequence of"
 			"letters and digits, but must start with a letter. "
 			"Underscore ( _ ) is treated as a letter. Identifiers are "
 			"case sensitive. Identifiers are used to name variables,"
 			"functions etc.";
-puts(str);
-return 0;
+    puts(str);
+    return 0;
 }
 
 
