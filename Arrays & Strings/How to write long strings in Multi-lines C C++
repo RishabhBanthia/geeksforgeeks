@@ -1,18 +1,18 @@
 #include<stdio.h>
 int main()
 {
-char *str1 = "geeks""quiz";
-char *str2 = "Qeeks"	 "Quiz";
-char *str3 = "Qeeks"	
+    char *str1 = "geeks""quiz";
+    char *str2 = "Qeeks"	 "Quiz";
+    char *str3 = "Qeeks"	
 				"Quiz";
 
-puts(str1);
-puts(str2);
-puts(str3);
+    puts(str1);
+    puts(str2);
+    puts(str3);
 
-puts("Geeks"	 // Breaking string in multiple lines
+    puts("Geeks"	 // Breaking string in multiple lines
 		"forGeeks");
-return 0;
+    return 0;
 }
 
 
