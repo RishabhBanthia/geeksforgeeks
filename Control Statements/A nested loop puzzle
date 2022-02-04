@@ -28,11 +28,7 @@ return 0;
 
 
 
-
-//program to count the number of comparison
-//operations executed by FIRST and SECOND */
 #include<iostream>
-
 using namespace std;
 
 int main()
