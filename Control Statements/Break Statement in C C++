@@ -276,21 +276,17 @@ int main()
 
 
 
-// C program to illustrate
-// using break statement
-// in Infinite loops
 #include <stdio.h>
 
-int main() {
-	// loop initialization expression
+int main() 
+{
 	int i = 0;
 
-	// infinite while loop
-	while (1) {
+	while (1) 
+	{
 		printf("%d ", i);
 		i++;
 	}
-
 	return 0;
 }
 
