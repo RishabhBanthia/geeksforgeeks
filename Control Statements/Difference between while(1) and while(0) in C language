@@ -1,4 +1,3 @@
-// C program to illustrate while(1)
 #include <stdio.h>
 int main()
 {
@@ -6,8 +5,7 @@ int main()
 	while (1) {
 		printf("%d\n", ++i);
 		if (i == 5)
-			break; // Used to come
-				// out of loop
+			break;
 	}
 	return 0;
 }
