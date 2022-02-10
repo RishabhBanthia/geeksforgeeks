@@ -27,11 +27,9 @@ const int i = 10;
 int c = 10;
 switch(c)
 {
-	case i: // Works fine
+	case i:
 		printf("Value of c = %d", c);
-		break;
-	/*Some more cases */
-					
+		break;		
 }
 return 0;
 }
