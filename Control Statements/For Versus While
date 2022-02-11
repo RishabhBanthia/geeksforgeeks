@@ -45,9 +45,9 @@ int main()
 int i = 0;
 while(i < 3)
 {
-	printf("loop"); /* printed infinite times */
+	printf("loop");
 	continue;
-	i++; /*This statement is never executed*/
+	i++;
 }
 getchar();
 return 0;
