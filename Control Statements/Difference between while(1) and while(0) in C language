@@ -23,11 +23,10 @@ using namespace std;
 int main()
 {
 	int i = 0;
-	while (1) {
+	while (1) 
+	{
 		cout << ++i << "\n";
 		if (i == 5)
-			// Used to come
-			// out of loop
 			break;
 	}
 	return 0;
