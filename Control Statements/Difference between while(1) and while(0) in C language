@@ -67,11 +67,11 @@ return 0;
 #include <iostream>
 using namespace std;
 
-int main() {
+int main() 
+{
 int i = 0, flag=0;
 while ( 0 )
 {
-	// This line will never get executed
 	cout << ++i << "\n";
 	flag++;
 	if (i == 5)
