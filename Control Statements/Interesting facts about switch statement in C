@@ -1,4 +1,3 @@
-// Following is a simple program to demonstrate syntax of switch.
 #include <stdio.h>
 int main()
 {
