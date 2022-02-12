@@ -48,7 +48,6 @@ return 0;
 
 
 
-// There is no break in all cases
 #include <stdio.h>
 int main()
 {
