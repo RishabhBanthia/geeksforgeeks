@@ -73,7 +73,7 @@ return 0;
 
 
 
-// There is no break in some cases
+
 #include <stdio.h>
 int main()
 {
