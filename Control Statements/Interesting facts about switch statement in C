@@ -25,7 +25,6 @@ return 0;
 
 
 
-// float is not allowed in switch
 #include <stdio.h>
 int main()
 {
