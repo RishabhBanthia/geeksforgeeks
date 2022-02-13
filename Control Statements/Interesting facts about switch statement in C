@@ -157,7 +157,6 @@ return 0;
 
 
 
-// A program with variable expressions in labels
 #include <stdio.h>
 int main()
 {
