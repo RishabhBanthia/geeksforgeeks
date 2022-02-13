@@ -130,7 +130,7 @@ return 0;
 
 
 
-// The default block is placed above other cases.
+
 #include <stdio.h>
 int main()
 {
