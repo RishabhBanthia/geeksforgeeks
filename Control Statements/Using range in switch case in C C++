@@ -1,5 +1,3 @@
-// C program to illustrate
-// using range in switch case
 #include <stdio.h>
 int main()
 {
