@@ -30,8 +30,6 @@ int main()
 
 
 
-// C++ program to illustrate
-// using range in switch case
 #include <iostream>
 using namespace std;
 int main()
@@ -55,5 +53,3 @@ int main()
 	}
 	return 0;
 }
-
-//This code is contributed by shivanisinghss2110
