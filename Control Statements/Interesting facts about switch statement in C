@@ -211,7 +211,7 @@ return 0;
 
 
 
-// Program where two case labels have same value
+
 #include <stdio.h>
 int main()
 {
