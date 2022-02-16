@@ -75,8 +75,6 @@ int main()
 
 
 #include <stdio.h>
-
-
 void findElement(int arr[], int size, int key)
 {
 	for (int i = 0; i < size; i++) 
