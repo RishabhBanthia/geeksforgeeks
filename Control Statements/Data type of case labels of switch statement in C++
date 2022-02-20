@@ -48,25 +48,23 @@ int main()
 #include<stdio.h>
 int main()
 {
-int n1=10,n2=11;
+    int n1=10,n2=11;
 
-switch((int)(n1 > n2))
-{
-	case 0:
-		printf("%d is the largest\n", n2);
-		break;
-	default:
-		printf("%d is the largest\n", n1);
-}
-
-switch((int)(n1 < n2))
-{
-	case 0:
-		printf("%d is the largest\n", n1);
-		break;
-	default:
-		printf("%d is the largest\n", n2);
-}
-
-return 0;
+    switch((int)(n1 > n2))
+    {
+	    case 0:
+		    printf("%d is the largest\n", n2);
+		    break;
+	    default:
+		    printf("%d is the largest\n", n1);
+    }
+    switch((int)(n1 < n2))
+    {
+	    case 0:
+		    printf("%d is the largest\n", n1);
+		    break;
+	    default:
+		    printf("%d is the largest\n", n2);
+    }
+    return 0;
 }
