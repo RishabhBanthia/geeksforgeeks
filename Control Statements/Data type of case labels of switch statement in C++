@@ -1,15 +1,15 @@
 #include<stdio.h>
 int main()
 {
-int i = 10;
-int c = 10;
-switch(c)
-{
-	case i:
-		printf("Value of c = %d", c);
-		break;					
-}
-return 0;
+    int i = 10;
+    int c = 10;
+    switch(c)
+    {
+	    case i:
+		    printf("Value of c = %d", c);
+		    break;					
+    }
+    return 0;
 }
 
 
