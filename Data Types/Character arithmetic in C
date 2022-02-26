@@ -13,8 +13,7 @@ int main()
 
 
 
-// A C++ program to demonstrate character
-// arithmetic in C++.
+
 #include <bits/stdc++.h>
 using namespace std;
 
