@@ -1,12 +1,9 @@
-// C program to demonstrate
-// double and float precision values
-
+// C program to demonstrate double and float precision values
 #include <stdio.h>
 #include <math.h>
 
-// utility function which calculate roots of
-// quadratic equation using double values
-void double_solve(double a, double b, double c){
+void double_solve(double a, double b, double c)
+{
 	double d = b*b - 4.0*a*c;
 	double sd = sqrt(d);
 	double r1 = (-b + sd) / (2.0*a);
@@ -14,9 +11,8 @@ void double_solve(double a, double b, double c){
 	printf("%.5f\t%.5f\n", r1, r2);
 }
 
-// utility function which calculate roots of
-// quadratic equation using float values
-void float_solve(float a, float b, float c){
+void float_solve(float a, float b, float c)
+{
 	float d = b*b - 4.0f*a*c;
 	float sd = sqrtf(d);
 	float r1 = (-b + sd) / (2.0f*a);
@@ -25,7 +21,8 @@ void float_solve(float a, float b, float c){
 }
 
 // driver program
-int main(){
+int main()
+{
 	float fa = 1.0f;
 	float fb = -4.0000000f;
 	float fc = 3.9999999f;
