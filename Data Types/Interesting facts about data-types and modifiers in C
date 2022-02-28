@@ -33,6 +33,12 @@ int main()
 
 
 
+
+
+
+
+
+
 #include <stdio.h>
 int main()
 {
@@ -44,12 +50,25 @@ int main()
 
 
 
+
+
+
+
+
+
 #include <stdio.h>
 int main()
 {
 	long double a;
 	return (0);
 }
+
+
+
+
+
+
+
 
 
 
