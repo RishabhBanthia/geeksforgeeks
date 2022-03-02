@@ -1,5 +1,4 @@
-// C program to check the size of 'long'
-// data type
+// C program to check the size of 'long' data type
 #include<stdio.h>
 int main()
 {
