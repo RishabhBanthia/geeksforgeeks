@@ -33,13 +33,9 @@ int main()
 #include <stdio.h>
 
 // Space optimized representation of the date
-struct date {
-	// d has value between 0 and 31, so 5 bits
-	// are sufficient
+struct date 
+{
 	int d : 5;
-
-	// m has value between 0 and 15, so 4 bits
-	// are sufficient
 	int m : 4;
 
 	int y;
@@ -53,6 +49,16 @@ int main()
 	printf("Date is %d/%d/%d", dt.d, dt.m, dt.y);
 	return 0;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
