@@ -129,7 +129,8 @@ int main()
 
 
 #include <stdio.h>
-struct test {
+struct test 
+{
 	unsigned int x : 2;
 	unsigned int y : 2;
 	unsigned int z : 2;
@@ -145,7 +146,8 @@ int main()
 
 
 
-struct test {
+struct test 
+{
 	unsigned int x[10] : 5;
 };
 
