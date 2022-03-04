@@ -22,17 +22,15 @@ int main()
 // Structure to represent a 2D point
 struct Point
 {
-int x, y;
+    int x, y;
 };
 
 void printPoint(struct Point p)
 {
-printf("%d, %d", p.x, p.y);
+    printf("%d, %d", p.x, p.y);
 }
-
 int main()
 {
-printPoint((struct Point){2, 3});
-
-return 0;
+    printPoint((struct Point){2, 3});
+    return 0;
 }
