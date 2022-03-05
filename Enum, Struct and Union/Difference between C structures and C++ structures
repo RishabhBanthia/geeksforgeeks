@@ -1,15 +1,13 @@
 // C Program to Implement Member functions inside structure
-
 #include <stdio.h>
 struct marks {
 	int num;
 	void
-	Set(int temp) // Member function inside Structure to
-					// take input and store it in "num"
+	Set(int temp)
 	{
 		num = temp;
 	}
-	void display() // function used to display the values
+	void display()
 	{
 		printf("%d", num);
 	}
@@ -18,21 +16,21 @@ struct marks {
 int main()
 {
 	struct marks m1;
-	m1.Set(9); // calling function inside Struct to
-			// initialize value to num
-	m1.display(); // calling function inside struct to
-				// display value of Num
+	m1.Set(9);
+	
+	m1.display();
 }
 
-/* Error Occured
-prog.c:18:4: error: ‘struct marks’ has no member named ‘Set’
-m1.Set(9); // calling function inside Struct to
-initialize value to num
-	^
-prog.c:19:4: error: ‘struct marks’ has no member named
-‘display’ m1.display(); // calling function inside struct to
-display value of Num
-*/
+
+
+
+
+
+
+
+
+
+
 
 
 
