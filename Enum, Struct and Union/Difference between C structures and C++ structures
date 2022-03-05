@@ -110,10 +110,17 @@ int main()
 {
 	return 0;
 }
-/* 6:5: error: expected specifier-qualifier-list
-before 'static'
-	static int x;
-	^*/
+
+
+
+
+
+
+
+
+
+
+
 
 
 
