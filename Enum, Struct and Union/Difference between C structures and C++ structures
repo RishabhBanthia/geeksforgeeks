@@ -71,8 +71,7 @@ int main()
 
 
 
-// C program to demonstrate that direct
-// member initialization is not possible in C
+// C program to demonstrate that direct member initialization is not possible in C
 #include <stdio.h>
 
 struct Record {
@@ -86,12 +85,17 @@ int main()
 	printf("%d", s.x);
 	return 0;
 }
-/* Output : Compiler Error
-6:8: error: expected ':', ', ', ';', '}' or
-'__attribute__' before '=' token
-int x = 7;
-		^
-In function 'main': */
+
+
+
+
+
+
+
+
+
+
+
 
 
 
