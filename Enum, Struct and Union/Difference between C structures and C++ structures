@@ -39,7 +39,8 @@ int main()
 // C++ Program to Implement Member functions inside structure
 #include <iostream>
 using namespace std;
-struct marks {
+struct marks 
+{
 	int num;
 	void
 	Set(int temp)
