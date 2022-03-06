@@ -143,14 +143,16 @@ int main()
 	printf("%d", s.x);
 	return 0;
 }
-/* Output : Compiler Error
-[Error] expected specifier-qualifier-list
-	before 'Student'
-[Error] expected declaration specifiers or
-'...' before numeric constant
-[Error] 's' undeclared (first use
-5555555555in this function)
-In function 'main': */
+
+
+
+
+
+
+
+
+
+
 
 
 
