@@ -1,6 +1,7 @@
 // C Program to Implement Member functions inside structure
 #include <stdio.h>
-struct marks {
+struct marks 
+{
 	int num;
 	void
 	Set(int temp)
