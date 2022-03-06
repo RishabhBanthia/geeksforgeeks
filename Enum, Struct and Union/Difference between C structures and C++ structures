@@ -76,7 +76,8 @@ int main()
 // C program to demonstrate that direct member initialization is not possible in C
 #include <stdio.h>
 
-struct Record {
+struct Record 
+{
 	int x = 7;
 };
 
