@@ -165,9 +165,9 @@ int main()
 #include <stdio.h>
 
 // empty structure
-struct Record {
+struct Record 
+{
 };
-
 // Driver program
 int main()
 {
