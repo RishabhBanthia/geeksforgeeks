@@ -104,10 +104,10 @@ int main()
 
 
 // C program with structure static member
-struct Record {
+struct Record 
+{
 	static int x;
 };
-
 // Driver program
 int main()
 {
