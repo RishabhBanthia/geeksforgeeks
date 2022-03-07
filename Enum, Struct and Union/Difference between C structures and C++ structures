@@ -131,14 +131,14 @@ int main()
 // C program to demonstrate that Constructor is not allowed
 #include <stdio.h>
 
-struct Student {
+struct Student 
+{
 	int roll;
 	Student(int x)
 	{
 		roll = x;
 	}
 };
-
 // Driver Program
 int main()
 {
