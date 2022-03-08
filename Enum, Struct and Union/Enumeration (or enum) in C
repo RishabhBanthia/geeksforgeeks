@@ -61,6 +61,16 @@ int main()
 
 
 
+
+
+
+
+
+
+
+
+
+
 #include <stdio.h>
 enum day {sunday, monday, tuesday, wednesday, thursday, friday, saturday};
 
