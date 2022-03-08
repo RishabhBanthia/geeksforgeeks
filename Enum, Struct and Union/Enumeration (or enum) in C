@@ -54,8 +54,8 @@ enum State {Working = 1, Failed = 0, Freezed = 0};
 
 int main()
 {
-printf("%d, %d, %d", Working, Failed, Freezed);
-return 0;
+      printf("%d, %d, %d", Working, Failed, Freezed);
+      return 0;
 }
 
 
@@ -70,6 +70,18 @@ int main()
 	printf("The day number stored in d is %d", d);
 	return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
