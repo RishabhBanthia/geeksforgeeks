@@ -132,6 +132,17 @@ int main()
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 #include <stdio.h>
 enum State {WORKING = 0, FAILED, FREEZED};
 enum State currState = 2;
