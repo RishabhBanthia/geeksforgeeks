@@ -29,7 +29,8 @@ return 0;
 
 #include <stdio.h>
 
-struct Point {
+struct Point 
+{
 int x;
 int y;
 };
@@ -37,9 +38,8 @@ int y;
 int main()
 {
 struct Point p1 = {10, 20};
-struct Point p2 = p1; // works: contents of p1 are copied to p2
-if (p1 == p2) // compiler error: cannot do equality check for		
-				// whole structures
+struct Point p2 = p1;
+if (p1 == p2)
 {
 	printf("p1 and p2 are same ");
 }
