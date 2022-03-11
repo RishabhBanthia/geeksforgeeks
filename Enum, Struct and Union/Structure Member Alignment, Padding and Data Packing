@@ -37,21 +37,7 @@ printf("sizeof(structd_t) = %lu\n", sizeof(structd_t));
 return 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 void argument_alignment_check( char c1, char c2 )
 {
-// Considering downward stack
-// (on upward stack the output will be negative)
 printf("Displacement %d\n", (int)&c2 - (int)&c1);
 }
