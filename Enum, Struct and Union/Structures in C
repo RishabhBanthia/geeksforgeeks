@@ -25,17 +25,17 @@ struct address
 
 struct Point
 {
-int x, y;
+     int x, y;
 } p1;
 
 struct Point
 {
-int x, y;
+     int x, y;
 };
 
 int main()
 {
-struct Point p1;
+     struct Point p1;
 }
 
 
