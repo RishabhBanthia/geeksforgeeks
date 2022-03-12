@@ -28,12 +28,15 @@ bool compareTwoStudents(Student a, Student b)
 void computeRanks(Student a[], int n)
 {
 	for (int i = 0; i < n; i++)
+	{
 		a[i].total = a[i].math + a[i].phy + a[i].che;
-
+	}
 	sort(a, a + 5, compareTwoStudents);
 
 	for (int i = 0; i < n; i++)
+	{
 		a[i].rank = i + 1;
+	}
 }
 
 // Driver code
@@ -87,8 +90,7 @@ int main()
 	for (int i = 0; i < n; i++) {
 		cout << a[i].rank << " ";
 		cout << a[i].name << "	 ";
-		cout << a[i].math << "	 " << a[i].phy << "	 "
-			<< a[i].che << "	 ";
+		cout << a[i].math << "	 " << a[i].phy << "	 " << a[i].che << "	 ";
 		cout << a[i].total << " ";
 		cout << "\n";
 	}
