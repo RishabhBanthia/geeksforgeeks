@@ -96,9 +96,11 @@ int main()
 
 
 
-struct NODE {
+struct NODE 
+{
 	bool is_leaf;
-	union {
+	union 
+	{
 		struct
 		{
 			struct NODE* left;
