@@ -101,10 +101,10 @@ struct threeNum num;
 FILE *fptr;
 if ((fptr = fopen("C:\\program.bin","wb")) == NULL){
 printf("Error! opening file");
-// Program exits if the file pointer returns NULL.
+
 exit(1);
 }
-for(n = 1; n < 5; ++n) //Program Code Submitted by Susobhan Akhuli
+for(n = 1; n < 5; ++n)
 {
 num.n1 = n;
 num.n2 = 5*n;
