@@ -25,12 +25,14 @@ int main ()
 	fwrite (&input2, sizeof(struct person), 1, outfile);
 	
 	if(fwrite != 0)
+	{
 		printf("contents to file written successfully !\n");
+	}
 	else
+	{
 		printf("error writing file !\n");
-
+	}
 	fclose (outfile);
-
 	return 0;
 }
 
