@@ -24,8 +24,6 @@ int main()
 
 
 
-// C program to illustrate
-// gets()
 #include <stdio.h>
 #define MAX 15
 
