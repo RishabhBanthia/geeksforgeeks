@@ -1,11 +1,11 @@
 int main()
 {
-FILE *fp = fopen("test.txt", "r");
+    FILE *fp = fopen("test.txt", "r");
 
-if ( fp == NULL ) {
-}
-
-rewind(fp);
-
-return 0;
+    if ( fp == NULL ) 
+    {
+    
+    }
+    rewind(fp);
+    return 0;
 }
