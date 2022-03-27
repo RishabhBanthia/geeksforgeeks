@@ -24,13 +24,12 @@ int main(void)
 
 
 
-// C program of nested function
-// with the help of gcc extension
+
 #include <stdio.h>
 int main(void)
 {
-    auto int view(); // declare function with auto keyword
-    view(); // calling function
+    auto int view();
+    view();
     printf("Main\n");
   
     int view()
@@ -38,7 +37,6 @@ int main(void)
         printf("View\n");
         return 1;
     }
-  
     printf("GEEKS");
     return 0;
 }
