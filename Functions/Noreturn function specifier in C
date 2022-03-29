@@ -31,12 +31,9 @@ int main(void)
 
 example:
 
-// C program to illustrate the working 
-// of _Noreturn type function.
 #include <stdio.h>
 #include <stdlib.h>
-  
-// Nothing to return
+
 _Noreturn void show()
 {
     printf("BYE BYE");
