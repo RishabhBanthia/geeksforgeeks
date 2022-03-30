@@ -23,18 +23,13 @@ int main()
 
 Working of pow() function with integers
 
-// C program to illustrate
-// working with integers in
-// power function
 #include <math.h>
 #include <stdio.h>
   
 int main()
 {
     int a;
-  
-    // Using typecasting for
-    // integer result
+    
     a = (int)(pow(5, 2) + 0.5);
     printf("%d", a);
   
