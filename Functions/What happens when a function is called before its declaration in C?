@@ -29,13 +29,23 @@ char fun()
 {
    return 'G';
 }
- 
 int main(void)
 {
-    // Note that fun() is not declared
     printf("%c\n", fun());
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #include <stdio.h>
