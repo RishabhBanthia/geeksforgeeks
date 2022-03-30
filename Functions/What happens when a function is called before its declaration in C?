@@ -54,12 +54,21 @@ int fun()
 {
    return 10;
 }
- 
 int main(void)
 {
     printf("%d\n", fun());
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 #include <stdio.h>
