@@ -46,7 +46,7 @@ int main(void)
       
     if ( pid == 0 )
     {
-       exit(9999); //passing value more than 255
+       exit(9999);
     }
   
     int status;
@@ -61,6 +61,20 @@ int main(void)
   
 return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #include<stdio.h>
