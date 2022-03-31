@@ -91,15 +91,23 @@ int main()
   }  
     
   fprintf(fp, "%s", "Geeks for Geeks");
-    
-  /* ....... */
-  /* ....... */
-  /* Something went wrong so terminate here */  
+  
   abort();
     
   getchar();
   return 0;  
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 #include<assert.h>
