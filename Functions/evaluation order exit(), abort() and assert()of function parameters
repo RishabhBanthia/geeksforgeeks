@@ -12,10 +12,25 @@ int main ()
   }
   else
   {
-    /* file operations here */
+  
   }
   return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 example:
