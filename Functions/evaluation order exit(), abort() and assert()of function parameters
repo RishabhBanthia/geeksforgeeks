@@ -85,12 +85,10 @@ int main()
     printf("\n could not open file ");
     getchar();
     exit(1);
-  }  
-    
+  }
   fprintf(fp, "%s", "Geeks for Geeks");
   
   abort();
-    
   getchar();
   return 0;  
 }
