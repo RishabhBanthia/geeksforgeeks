@@ -4,21 +4,23 @@
   
 using namespace std;
   
-class Test {
+class Test 
+{
 public:
-  Test() {
+  Test() 
+  {
     printf("Inside Test's Constructor\n");
   }
   
-  ~Test(){
+  ~Test()
+  {
     printf("Inside Test's Destructor");
     getchar();
   }
 };
   
-int main() {
+int main() 
+{
   Test t1;
-  
-  // using exit(0) to exit from main
   exit(0);
 }
