@@ -1,5 +1,3 @@
-// C program to demonstrate
-// example of time() function.
 #include <stdio.h>
 #include <time.h>
   
@@ -12,6 +10,19 @@ int main ()
       
     return(0);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // C program to demonstrate
