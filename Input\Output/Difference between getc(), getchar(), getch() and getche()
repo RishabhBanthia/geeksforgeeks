@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main()
 {
-printf("%c", getc(stdin));
-return(0);
+    printf("%c", getc(stdin));
+    return(0);
 }
 
 
