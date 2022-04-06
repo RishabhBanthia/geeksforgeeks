@@ -22,8 +22,6 @@ int main()
 
 
 
-// C program to demonstrate the difference
-// between %i and %d specifier
 #include <stdio.h>
 
 int main()
