@@ -36,7 +36,7 @@ return 0;
 
 
 
-// Example for getch() in C
+
 #include <stdio.h>
 #include <conio.h>
 int main()
@@ -44,6 +44,18 @@ int main()
 printf("%c", getch());
 return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
