@@ -1,5 +1,3 @@
-// C/C++ program to demonstrate return value
-// of printf()
 #include <stdio.h>
 
 int main()
@@ -8,10 +6,18 @@ int main()
 
 	printf("While printing ");
 	printf(", the value returned by printf() is : %d",
-									printf("%s", st));
-
+	printf("%s", st));
 	return 0;
 }
+
+
+
+
+
+
+
+
+
 
 
 
