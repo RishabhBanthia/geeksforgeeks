@@ -23,8 +23,6 @@ int main(void)
 
 
 
-
-/* Another scanset example with ^ */
 #include <stdio.h>
 
 int main(void)
@@ -35,9 +33,21 @@ int main(void)
 	scanf("%[^o]s", str);
 
 	printf("You entered: %s\n", str);
-
 	return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
