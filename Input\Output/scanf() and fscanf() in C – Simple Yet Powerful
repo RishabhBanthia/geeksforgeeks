@@ -56,7 +56,8 @@ int main()
 	}
 	char buf[100];
 	while (fscanf(ptr,"%*s %*s %s ",buf)==1)
+	{
 		printf("%s\n", buf);
-
+	}
 	return 0;
 }
