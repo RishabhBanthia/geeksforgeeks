@@ -19,7 +19,7 @@ int main()
 
 
 
-/* Sample C program to demonstrate use of *s */
+
 #include<stdio.h>
 int main()
 {
@@ -29,8 +29,17 @@ int main()
 	return 0;
 }
 
-// Input: "blablabla 25"
-// Output: Value read : 25
+
+
+
+
+
+
+
+
+
+
+
 
 
 
