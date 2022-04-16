@@ -2,9 +2,9 @@
 
 void f()
 {
-int *ptr = (int *) malloc(sizeof(int));
+     int *ptr = (int *) malloc(sizeof(int));
 
-return;
+     return;
 }
 
 
