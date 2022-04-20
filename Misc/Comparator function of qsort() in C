@@ -7,21 +7,26 @@ int comparator(const void *p, const void *q)
 	int r = *(const int *)q;
 
 	if ((l&1) && (r&1))
+	{
 		return (r-l);
-
+	}
 	if ( !(l&1) && !(r&1) )
+	{
 		return (l-r);
-
+	}
 	if (!(l&1))
+	{
 		return 1;
-
+	}
 	return -1;
 }
 void printArr(int arr[], int n)
 {
 	int i;
 	for (i = 0; i < n; ++i)
+	{
 		printf("%d ", arr[i]);
+	}
 }
 
 // Driver program to test above function
