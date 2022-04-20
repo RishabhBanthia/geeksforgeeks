@@ -23,7 +23,6 @@ int main()
 
 
 
-/* Example */
 
 #include <stdio.h>
 int (*daytab)[13];
@@ -34,6 +33,12 @@ int main()
 	printf("arr[2] = %d\n", (*daytab)[2]);
 	return 0;
 }
+
+
+
+
+
+
 
 
 
