@@ -77,7 +77,11 @@ int main()
 
 
 
-/* Example */
+
+
+
+
+
 
 #include <stdio.h>
 char func1() { return 'a'; }
@@ -94,6 +98,10 @@ int main()
 	printf("%c\n", ((*(x()))[2])());
 	return 0;
 }
+
+
+
+
 
 
 
