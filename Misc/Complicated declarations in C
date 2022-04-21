@@ -152,7 +152,6 @@ int main()
 
 
 
-/* Example */
 
 #include <stdio.h>
 
