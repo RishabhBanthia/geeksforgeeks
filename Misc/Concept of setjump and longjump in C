@@ -11,7 +11,9 @@ void func()
 int main()
 {
 	if (setjmp(buf))
+	{
 		printf("Geek3\n");
+	}
 	else
 	{
 		printf("Geek4\n");
