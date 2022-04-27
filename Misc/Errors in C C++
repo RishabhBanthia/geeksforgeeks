@@ -14,8 +14,6 @@ void main()
 
 
 
-// C++ program to illustrate
-// syntax error
 
 #include <iostream>
 using namespace std;
@@ -25,10 +23,12 @@ void main()
 	int x = 10;
 	int y = 15;
 	
-	cout << " "<< (x, y) // semicolon missed
+	cout << " "<< (x, y)
 }
 
-// This code is contributed by shivanisinghss2110
+
+
+
 
 
 
