@@ -132,15 +132,18 @@ cout << "result = "<< div;
 
 
 
-// C program to illustrate
-// linker error
+
 #include<stdio.h>
 
-void Main() // Here Main() should be main()
+void Main()
 {
 	int a = 10;
 	printf("%d", a);
 }
+
+
+
+
 
 
 
