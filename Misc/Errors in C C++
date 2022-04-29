@@ -154,18 +154,20 @@ void Main()
 
 
 
-// C++ program to illustrate
-// linker error
 #include <bits/stdc++.h>
 using namespace std;
 
-void Main() // Here Main() should be main()
+void Main()
 {
 	int a = 10;
 	cout << " "<< a;
 }
 
-// This code is contributed by shivanisinghss2110
+
+
+
+
+
 
 
 
