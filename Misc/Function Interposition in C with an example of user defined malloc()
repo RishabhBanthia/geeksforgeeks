@@ -27,10 +27,11 @@ int main(void)
 
 #include <stdio.h>
 #include <malloc.h>
+
 void *mymalloc(size_t s)
 {
-printf("My malloc called");
-return NULL;
+    printf("My malloc called");
+    return NULL;
 }
 
 
