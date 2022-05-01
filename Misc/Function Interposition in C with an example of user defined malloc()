@@ -51,8 +51,8 @@ void *mymalloc(size_t s)
 void *__real_malloc(size_t size);
 void *__wrap_malloc(size_t size)
 {
-printf("My malloc called");
-return NULL;
+     printf("My malloc called");
+     return NULL;
 }
 
 
