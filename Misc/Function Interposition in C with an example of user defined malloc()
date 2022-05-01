@@ -63,8 +63,6 @@ void *__wrap_malloc(size_t size)
 
 
 
-/* Run-time interposition of malloc based on dynamic linker’s
-(ld-linux.so) LD_PRELOAD mechanism */
 #define _GNU_SOURCE
 #include <stdio.h>
 
