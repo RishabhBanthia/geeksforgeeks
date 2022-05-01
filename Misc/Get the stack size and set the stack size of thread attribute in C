@@ -5,24 +5,16 @@
 int main()
 {
 
-	// for takes the size of threads stack
 	size_t stksize;
-
-	// attribute declaration
 	pthread_attr_t atr;
 
-	// it gets the threads stack size and give
-	// value in stksize variable
 	pthread_attr_getstacksize(&atr, &stksize);
 
-	// print the current threads stack size
 	printf("Current stack size - > %d\n", stksize);
 
-	// then set the new threads stack size
 	pthread_attr_setstacksize(&atr, 320000034);
 	pthread_attr_getstacksize(&atr, &stksize);
 
-	// print the new stack size
 	printf("New stack size-> %d\n", stksize);
 	return 0;
 }
