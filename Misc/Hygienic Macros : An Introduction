@@ -49,20 +49,13 @@ int main(void)
 
 
 
-// C program to illustrate
-// Hygienic macros using
-// identifier names such that
-// they do not cause
-// the accidental capture of identifiers
 #define INCI(i) do { int m = 0; ++i; } while(0)
 int main(void)
 {
 	int x = 4, y = 8;
 	
-	// macro called first time
 	INCI(x);
 	
-	// macro called second time
 	INCI(y);
 	
 	printf("x = %d, y = %d\n", x, y);
