@@ -120,9 +120,7 @@ int main()
 
 
 
-// C program
-// consumes the Enter key
-// (newline character) pressed after input
+
 #include<stdio.h>
 
 char ch[100000];
