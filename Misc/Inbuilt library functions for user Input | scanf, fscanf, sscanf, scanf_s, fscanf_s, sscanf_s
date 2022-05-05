@@ -201,8 +201,7 @@ int main()
 
 
 
-//C program to illustrate sscanf_s statement
-//This program will run on MS Visual studio
+
 #include <stdio.h>
 
 int main()
@@ -211,7 +210,6 @@ int main()
 	char str[10], str2[10];
 	int i;
 
-	// %*s is used to skip a word
 	sscanf_s(s, "%d", &i, sizeof(i));
 	sscanf_s(s, "%*d %*s %*s %*s %s", str, sizeof(str));
 	sscanf_s(s, "%*d %*s %*s %*s %*s %s", str2, sizeof(str2));
