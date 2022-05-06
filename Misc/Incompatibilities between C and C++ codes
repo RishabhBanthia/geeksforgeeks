@@ -75,8 +75,6 @@ int main()
 
 
 
-// In C, empty brackets mean any number
-// of arguments can be passed
 #include<stdio.h>
 
 void fun() { }
