@@ -24,14 +24,10 @@ int main()
 
 
 
-// C code to demonstrate implicit conversion
-// of void* to int*
 #include<stdio.h>
 #include<malloc.h>
 void f(int n)
 {
-	// Implicit conversion of void* to int*
-	// Not allowed in C++.
 	int* p = malloc(n* sizeof(int));
 }
 
@@ -41,6 +37,13 @@ int main()
 	f(7);
 	return 0;
 }
+
+
+
+
+
+
+
 
 
 
