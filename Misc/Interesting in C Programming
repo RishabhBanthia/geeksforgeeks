@@ -27,8 +27,6 @@ int main()
 
 
 
-// C program to demonstrate that arr[0] and
-// 0[arr]
 #include<stdio.h>
 int main()
 {
@@ -38,6 +36,14 @@ int main()
 	
 	return 0;	
 }
+
+
+
+
+
+
+
+
 
 
 
