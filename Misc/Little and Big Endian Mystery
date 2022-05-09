@@ -32,14 +32,14 @@ int main()
 #include <stdio.h>
 int main()
 {
-unsigned int i = 1;
-char *c = (char*)&i;
-if (*c)	
+    unsigned int i = 1;
+    char *c = (char*)&i;
+    if (*c)	
 	printf("Little endian");
-else
+    else
 	printf("Big endian");
-getchar();
-return 0;
+    getchar();
+    return 0;
 }
 
 
