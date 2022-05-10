@@ -1,12 +1,11 @@
 #define funcMacro(params …)
-do {												 \
-		if (cond == true)							 \
-				goto x;								 \
-		<some code >								 \
-														\
-		x:											 \
-				<some code>							 \
-} while(0);											 \
+do {
+		if (cond == true)
+				goto x;
+		<some code >
+		x:
+				<some code>
+} while(0);
 
 Void foo()
 {
