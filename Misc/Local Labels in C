@@ -1,7 +1,10 @@
 #define funcMacro(params …)
-do {
+do 
+{
 		if (cond == true)
-				goto x;
+		{
+			goto x;
+		}
 		<some code >
 		x:
 				<some code>
