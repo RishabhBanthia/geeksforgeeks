@@ -27,22 +27,20 @@ Void foo()
 #include <stdio.h>
 #include <string.h>
 
-//Function macro using local labels
-#define IS_STR_EMPTY(str)									 \
-do {														 \
-		__label__ empty, not_empty, exit;					 \
-		if (strlen(str))									 \
-				goto not_empty;								 \
-		else												 \
-				goto empty;									 \
-																\
-		not_empty:											 \
-				printf("string = %s\n", str);				 \
-				goto exit;									 \
-		empty:												 \
-				printf("string is empty\n");				 \
-		exit: ;												 \
-} while(0);													 \
+#define IS_STR_EMPTY(str)
+do {
+		__label__ empty, not_empty, exit;
+		if (strlen(str))
+				goto not_empty;	
+		else
+				goto empty;
+		not_empty:
+				printf("string = %s\n", str);
+				goto exit;
+		empty:
+				printf("string is empty\n");
+		exit: ;
+} while(0);
 
 int main()
 {
