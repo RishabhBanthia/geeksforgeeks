@@ -28,7 +28,8 @@ Void foo()
 #include <string.h>
 
 #define IS_STR_EMPTY(str)
-do {
+do 
+{
 		__label__ empty, not_empty, exit;
 		if (strlen(str))
 				goto not_empty;	
@@ -46,11 +47,8 @@ int main()
 {
 		char string[20] = {'\0'};
 
-		//Pass empty string to Macro function
 		IS_STR_EMPTY(string);
 
-
-		//Pass non-empty string to Macro function
 		strcpy(string, "geeksForgeeks");
 		IS_STR_EMPTY(string);
 
