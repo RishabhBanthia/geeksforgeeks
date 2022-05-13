@@ -1,5 +1,3 @@
-// C++ program to demonstrate working of floor()
-// in C/C++
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -16,6 +14,10 @@ int main()
 	cout << floor(c) << endl;
 	return 0;
 }
+
+
+
+
 
 
 
