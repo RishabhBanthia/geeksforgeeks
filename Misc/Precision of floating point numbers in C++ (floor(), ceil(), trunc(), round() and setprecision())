@@ -56,8 +56,8 @@ int main()
 
 
 
-// C++ program to demonstrate working of trunc()
-// in C/C++
+
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -74,6 +74,10 @@ int main()
 	cout << trunc(c) <<endl;
 	return 0;
 }
+
+
+
+
 
 
 
