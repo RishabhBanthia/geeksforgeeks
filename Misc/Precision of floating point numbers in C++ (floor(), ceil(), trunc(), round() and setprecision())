@@ -25,8 +25,7 @@ int main()
 
 
 
-// C++ program to demonstrate working of ceil()
-// in C/C++
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -43,6 +42,12 @@ int main()
 	cout << ceil(c) << endl;
 	return 0;
 }
+
+
+
+
+
+
 
 
 
