@@ -121,8 +121,7 @@ int main()
 
 
 
-// C++ program to demonstrate working of setprecision()
-// in C/C++
+
 #include<bits/stdc++.h>
 using namespace std;
 
