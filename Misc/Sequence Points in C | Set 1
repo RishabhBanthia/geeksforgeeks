@@ -67,7 +67,9 @@ int main()
 int f1() { printf ("Geeks"); return 1;}
 int f2() { printf ("forGeeks"); return 1;}
 
-// PROGRAM 4
+
+
+
 int main()
 {
 // Since && defines a sequence point after first operand, it is
