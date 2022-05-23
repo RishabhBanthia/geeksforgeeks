@@ -87,8 +87,8 @@ int main()
 
 int main()
 {
-int p = (f1(), f2());
-return 0;
+    int p = (f1(), f2());
+    return 0;
 }
 
 
