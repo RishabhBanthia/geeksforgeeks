@@ -52,18 +52,19 @@ void* func_one(void* ptr)
 {
 	tmp_thread = pthread_self()
 }
-
 void* func_two(void* ptr)
 {
 	pthread_t thread_two = pthread_self();
 
-	if (pthread_equal(tmp_thread, thread_two)) {
+	if (pthread_equal(tmp_thread, thread_two)) 
+	{
 		printf("equal\n");
-	} else {
+	} 
+	else 
+	{
 		printf("not equal\n");
 	}
 }
-
 int main()
 {
 	pthread_t thread_one, thread_two;
