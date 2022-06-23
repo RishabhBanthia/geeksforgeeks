@@ -8,9 +8,12 @@ pthread_t tmp_thread;
 
 void* func_one(void* ptr)
 {
-	if (pthread_equal(tmp_thread, pthread_self())) {
+	if (pthread_equal(tmp_thread, pthread_self())) 
+	{
 		printf("equal\n");
-	} else {
+	} 
+	else 
+	{
 		printf("not equal\n");
 	}
 }
