@@ -1,4 +1,3 @@
-// C program to demonstrate working of pthread_equal()
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -9,8 +8,6 @@ pthread_t tmp_thread;
 
 void* func_one(void* ptr)
 {
-	// in this field we can compare two thread
-	// pthread_self gives a current thread id
 	if (pthread_equal(tmp_thread, pthread_self())) {
 		printf("equal\n");
 	} else {
@@ -21,17 +18,10 @@ void* func_one(void* ptr)
 // driver code
 int main()
 {
-	// thread one
 	pthread_t thread_one;
 
-	// assign the id of thread one in temporary
-	// thread which is global declared r
 	tmp_thread = thread_one;
-
-	// create a thread
 	pthread_create(&thread_one, NULL, func_one, NULL);
-
-	// wait for thread
 	pthread_join(thread_one, NULL);
 }
 
