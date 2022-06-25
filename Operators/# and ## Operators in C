@@ -18,7 +18,7 @@ int main(void)
 
 
 
-// CPP program to illustrate (#) operator
+
 #include <iostream>
 using namespace std;
 
@@ -27,9 +27,14 @@ using namespace std;
 int main()
 {
 	cout << "Value of a is " << a << endl;
-
 	return 0;
 }
+
+
+
+
+
+
 
 
 
