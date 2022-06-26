@@ -16,7 +16,7 @@ int main(void)
 
 
 
-// PROGRAM 2
+
 #include<stdio.h>
 
 int main(void)
@@ -26,6 +26,10 @@ int main(void)
 	printf("%d", a);
 	return 0;
 }
+
+
+
+
 
 
 
