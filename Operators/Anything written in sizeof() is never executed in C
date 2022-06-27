@@ -14,9 +14,7 @@ int main()
 
 
 
-// One more C program to demonstrate that
-// the expressions written in sizeof() are
-// never executed
+
 #include <stdio.h>
 
 int main() {
