@@ -104,8 +104,7 @@ int main()
 
 
 
-// Note that the output of the following
-// program is compiler dependent
+
 #include <stdio.h>
 
 int main()
