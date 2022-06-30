@@ -20,7 +20,7 @@ int main()
 
 
 
-// PROGRAM 2: Thanks to Shekhu for suggesting this program
+
 #include <stdio.h>
 int main()
 {
@@ -30,6 +30,12 @@ int main()
 	getchar();
 	return 0;
 }
+
+
+
+
+
+
 
 
 
