@@ -20,10 +20,16 @@ using namespace std;
 
 int main() 
 {
-int a = 3, b = -8, c = 2;
-cout << a % b / c;
-return 0;
+     int a = 3, b = -8, c = 2;
+     cout << a % b / c;
+     return 0;
 }
+
+
+
+
+
+
 
 
 
