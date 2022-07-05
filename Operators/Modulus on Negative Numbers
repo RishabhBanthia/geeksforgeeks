@@ -38,11 +38,17 @@ int main()
 #include <stdio.h>
 int main()
 {
-// a positive and b negative.
 int a = 3, b = -8;
 printf("%d", a % b);
 return 0;
 }
+
+
+
+
+
+
+
 
 
 
