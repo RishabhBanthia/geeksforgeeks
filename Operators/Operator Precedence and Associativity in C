@@ -1,6 +1,3 @@
-// Associativity is not used in the below program.
-// Output is compiler dependent.
-
 #include <stdio.h>
 
 int x = 0;
@@ -20,6 +17,11 @@ int main()
 	printf("%d ", x);
 	return 0;
 }
+
+
+
+
+
 
 
 
