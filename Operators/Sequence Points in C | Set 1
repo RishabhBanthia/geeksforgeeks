@@ -79,14 +79,21 @@ int main()
 
 
 
-// PROGRAM 5
+
 int main()
 {
-// Since comma operator defines a sequence point after first operand, it is
-// guaranteed that f1() is completed first.
-int p = (f1(), f2());
-return 0;
+    int p = (f1(), f2());
+    return 0;
 }
+
+
+
+
+
+
+
+
+
 
 
 // PROGRAM 6
