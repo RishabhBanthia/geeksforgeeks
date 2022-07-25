@@ -63,6 +63,12 @@ int main()
 
 
 
+
+
+
+
+
+
 #include <iostream>
 using namespace std;
 
@@ -120,6 +126,10 @@ int main()
 
 
 
+
+
+
+
 #include <iostream>
 using namespace std;
 
@@ -132,7 +142,7 @@ int main()
 			b--;
 		}
 	}
-	if (b < 0) { // when 'b' is negative
+	if (b < 0) {
 		while (b < 0) {
 			a--;
 			b++;
@@ -141,6 +151,3 @@ int main()
 	cout << "Sum = " << a;
 	return 0;
 }
-
-// This code is contributed by SHUBHAMSINGH10
-// This code is improved & fixed by Abhijeet Soni.
