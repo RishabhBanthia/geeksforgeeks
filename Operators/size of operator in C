@@ -13,6 +13,14 @@ int main()
 
 
 
+
+
+
+
+
+
+
+
 #include <iostream>
 using namespace std;
 
@@ -24,6 +32,12 @@ int main()
 	cout << sizeof(double)<<"\n";
 	return 0;
 }
+
+
+
+
+
+
 
 
 
@@ -44,6 +58,11 @@ int main()
 
 
 
+
+
+
+
+
 #include <iostream>
 using namespace std;
 int main()
@@ -53,6 +72,11 @@ int main()
 	cout << sizeof(a + d));
 	return 0;
 }
+
+
+
+
+
 
 
 
@@ -87,6 +111,12 @@ int main()
 	printf("Number of elements:%lu ", sizeof(arr) / sizeof(arr[0]));
 	return 0;
 }
+
+
+
+
+
+
 
 
 
