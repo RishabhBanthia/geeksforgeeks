@@ -19,8 +19,6 @@ int main()
 
 
 
-// C program to illustrate
-// char* const p
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -31,13 +29,18 @@ int main()
 	printf( "Value pointed to by ptr: %c\n", *ptr);
 	printf( "Address ptr is pointing to: %d\n\n", ptr);
 
-	//ptr = &b; illegal statement (assignment of read-only variable ptr)
-
-	// changing the value at the address ptr is pointing to
 	*ptr = b;
 	printf( "Value pointed to by ptr: %c\n", *ptr);
 	printf( "Address ptr is pointing to: %d\n", ptr);
 }
+
+
+
+
+
+
+
+
 
 
 
