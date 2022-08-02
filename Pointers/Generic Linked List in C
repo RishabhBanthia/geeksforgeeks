@@ -30,12 +30,13 @@ void printList(struct Node *node, void (*fptr)(void *))
 }
 void printInt(void *n)
 {
-printf(" %d", *(int *)n);
+	printf(" %d", *(int *)n);
 }
 void printFloat(void *f)
 {
-printf(" %f", *(float *)f);
+	printf(" %f", *(float *)f);
 }
+
 int main()
 {
 	struct Node *start = NULL;
