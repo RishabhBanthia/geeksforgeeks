@@ -20,8 +20,8 @@ int main()
 #include<stdio.h>
 int main()
 {
-printf("%d",NULL);
-return 0;
+        printf("%d",NULL);
+        return 0;
 }
 
 
