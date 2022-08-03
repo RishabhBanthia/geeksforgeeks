@@ -41,6 +41,6 @@ int main()
 #include<stdio.h>
 int main()
 {
-printf("%lu",sizeof(void));
-return 0;
+        printf("%lu",sizeof(void));
+        return 0;
 }
