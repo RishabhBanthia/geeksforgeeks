@@ -120,8 +120,7 @@ return 0;
 
 
 
-// C program to print the elements of 3-D
-// array using pointer notation
+
 #include<stdio.h>
 int main()
 {
@@ -150,6 +149,13 @@ for (i = 0; i < 2; i++)
 
 return 0;
 }
+
+
+
+
+
+
+
 
 
 
