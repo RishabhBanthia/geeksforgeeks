@@ -84,8 +84,7 @@ int main()
 
 
 
-// C program to print the values and
-// address of elements of a 2-D array
+
 #include<stdio.h>
 
 int main()
@@ -98,8 +97,7 @@ int arr[3][4] = {
 int i, j;
 for (i = 0; i < 3; i++)
 {
-	printf("Address of %dth array = %p %p\n",
-					i, arr[i], *(arr + i));
+	printf("Address of %dth array = %p %p\n", i, arr[i], *(arr + i));
 	
 	for (j = 0; j < 4; j++)
 	printf("%d %d ", arr[i][j], *(*(arr + i) + j));
@@ -108,6 +106,16 @@ for (i = 0; i < 3; i++)
 
 return 0;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
