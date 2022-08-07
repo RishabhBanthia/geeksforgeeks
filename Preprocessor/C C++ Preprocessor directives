@@ -15,5 +15,5 @@
 
 int main()
 {
-	std::cout << gfg; // gfg = 50
+	std::cout << gfg;
 }	
