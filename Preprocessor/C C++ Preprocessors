@@ -44,8 +44,6 @@ int main()
 
 
 #include <stdio.h>
-
-// macro with parameter
 #define AREA(l, b) (l * b)
 int main()
 {
