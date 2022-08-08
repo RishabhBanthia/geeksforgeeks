@@ -22,8 +22,6 @@ int main()
 
 
 #include <iostream>
-
-// macro definition
 #define LIMIT 5
 int main()
 {
