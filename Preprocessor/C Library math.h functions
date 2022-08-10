@@ -56,8 +56,6 @@ int main ()
 
 
 
-// C code to illustrate
-// the use of fabs function
 #include <stdio.h>
 #include <math.h>
 
@@ -72,6 +70,11 @@ printf("The absolute value of %d is %lf\n", b, fabs(b));
 	
 return(0);
 }
+
+
+
+
+
 
 
 
