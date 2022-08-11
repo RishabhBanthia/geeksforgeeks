@@ -122,12 +122,12 @@ int main ()
 
 int main ()
 {
-double x, ret;
-x = 10000;
-ret = log10(x);
-printf("log10(%lf) = %lf\n", x, ret);
+	double x, ret;
+	x = 10000;
+	ret = log10(x);
+	printf("log10(%lf) = %lf\n", x, ret);
 	
-return(0);
+	return(0);
 }
 
 
