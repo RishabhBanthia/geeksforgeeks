@@ -93,12 +93,12 @@ int main ()
 
 int main ()
 {
-double x, ret;
-x = 2.7;
-ret = log(x);
-printf("log(%lf) = %lf", x, ret);
+	double x, ret;
+	x = 2.7;
+	ret = log(x);
+	printf("log(%lf) = %lf", x, ret);
 	
-return(0);
+	return(0);
 }
 
 
