@@ -193,8 +193,15 @@ int main ()
 
 
 
-// C code to illustrate
-// the use of pow function
+
+
+
+
+
+
+
+
+
 #include <stdio.h>
 #include <math.h>
 
