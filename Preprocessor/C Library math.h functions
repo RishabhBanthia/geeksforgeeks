@@ -236,15 +236,15 @@ int main ()
 
 int main ()
 {
-double x, fractpart, intpart;
+	double x, fractpart, intpart;
 
-x = 8.123456;
-fractpart = modf(x, &intpart);
+	x = 8.123456;
+	fractpart = modf(x, &intpart);
 
-printf("Integral part = %lf\n", intpart);
-printf("Fraction Part = %lf \n", fractpart);
+	printf("Integral part = %lf\n", intpart);
+	printf("Fraction Part = %lf \n", fractpart);
 	
-return(0);
+	return(0);
 }
 
 
