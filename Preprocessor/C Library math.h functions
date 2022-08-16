@@ -334,15 +334,15 @@ int main ()
 
 int main ()
 {
-double x, ret, val;
+	double x, ret, val;
 
-x = 0.9;
-val = 180.0 / PI;
+	x = 0.9;
+	val = 180.0 / PI;
 
-ret = acos(x) * val;
-printf("The arc cosine of %lf is %lf degrees", x, ret);
+	ret = acos(x) * val;
+	printf("The arc cosine of %lf is %lf degrees", x, ret);
 	
-return(0);
+	return(0);
 }
 
 
