@@ -2,8 +2,8 @@
 
 typedef enum BoolenTag
 {
-false,
-true
+	false,
+	true
 } bool;
 
 #endif
@@ -14,6 +14,6 @@ true
 
 int main()
 {
-CRASH();
-return 0;
+	CRASH();
+	return 0;
 }
