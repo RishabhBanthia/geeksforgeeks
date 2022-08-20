@@ -15,10 +15,13 @@ int main(void)
 	scanf("%d", &num);
 
 	if (num & 1)
+	{
 		MACRO(num, "Odd");
+	}
 	else
+	{
 		MACRO(num, "Even");
-
+	}
 	return 0;
 }
 
