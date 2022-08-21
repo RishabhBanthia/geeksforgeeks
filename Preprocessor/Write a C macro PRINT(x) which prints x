@@ -19,6 +19,6 @@ int main()
 #define PRINT(x) (#x)
 int main()
 {
-printf("%s",PRINT(x));
-return 0;
+    printf("%s",PRINT(x));
+    return 0;
 }
