@@ -4,15 +4,15 @@
 
 typedef struct PodTag
 {
-int   i;
-double d;
-char  c;
+	int   i;
+	double d;
+	char  c;
 } PodType;
 
 int main()
 {
-printf("%d", OFFSETOF(PodType, c) );
+	printf("%d", OFFSETOF(PodType, c) );
 	
-getchar();
-return 0;
+	getchar();
+	return 0;
 }
