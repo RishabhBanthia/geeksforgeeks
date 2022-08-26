@@ -44,7 +44,6 @@ int main()
 
 
 
-//EXEC.c
 
 #include<stdio.h>
 #include<unistd.h>
