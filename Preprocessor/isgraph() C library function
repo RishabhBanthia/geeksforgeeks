@@ -1,4 +1,3 @@
-// code to check graphical character
 #include <stdio.h>
 #include <ctype.h>
 
