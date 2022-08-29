@@ -41,7 +41,7 @@ int main()
 
 
 
-// code to print all Graphical Characters
+
 #include <stdio.h>
 #include <ctype.h>
 
