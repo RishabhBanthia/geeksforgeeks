@@ -57,12 +57,14 @@ int main()
 int main()
 {
 	int i;
-	printf("In C programming All graphic "
-			"characters are: \n");
+	printf("In C programming All graphic " , "characters are: \n");
 
 	for (i = 0; i <= 127; ++i)
+	{
 		if (isgraph(i) != 0)
-			printf("%c ", i);	
-
+		{
+			printf("%c ", i);
+		}
+	}
 	return 0;
 }
