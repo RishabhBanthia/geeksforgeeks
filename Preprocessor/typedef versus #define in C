@@ -54,8 +54,7 @@ int main()
 
 
 
-// C program to demonstrate importance
-// of typedef over #define for data types
+
 #include <stdio.h>
 typedef char* ptr;
 #define PTR char*
