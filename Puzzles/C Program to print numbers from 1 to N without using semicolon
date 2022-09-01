@@ -30,9 +30,9 @@ int main(int num)
 
 int main(int num, char *argv[])
 {
-while (num <= N && printf("%d ", num) && num++)
-{
-}
+	while (num <= N && printf("%d ", num) && num++)
+	{
+	}
 }
 
 
