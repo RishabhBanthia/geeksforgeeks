@@ -30,7 +30,9 @@ int main()
 {
 	int i, n = 20;
 	for (i = 0; i < n; n--)
+	{
 		cout << "*";
+	}
 	getchar();
 	return 0;
 }
