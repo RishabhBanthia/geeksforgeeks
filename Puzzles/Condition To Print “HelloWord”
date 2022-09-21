@@ -34,8 +34,12 @@ int main()
 int main()
 {
 	if(fork())
+	{
 		printf("Hello");
+	}
 	else
+	{
 		printf("World");
+	}
 	getchar();
 }		
