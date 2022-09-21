@@ -22,8 +22,9 @@ int intToStr(int x, char str[], int d)
 		x = x / 10;
 	}
 	while (i < d)
+	{
 		str[i++] = '0';
-
+	}
 	reverse(str, i);
 	str[i] = '\0';
 	return i;
