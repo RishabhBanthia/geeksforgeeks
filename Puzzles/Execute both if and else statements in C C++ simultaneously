@@ -1,19 +1,19 @@
 #include <stdio.h>
 int main()
 {
-if (1)
-{
+    if (1)
+    {
 	label_1: printf("Hello ");
 
 	goto label_2;
-}
-else
-{
+    }
+    else
+    {
 	goto label_1;
 
 	label_2: printf("Geeks");
-}
-return 0;
+    }
+    return 0;
 }
 
 
